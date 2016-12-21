@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <script src="scripts/jquery-2.2.1.min.js"></script>
+    <title></title>
+</head>
+<body onload="buildHtmlTable()">
+    <table id="excelDataTable" border="1"></table>
+</body>
+</html>
+<script>
+    $.ajaxSetup({
+        cache: false
+    });
+
+    $.getJSON({
+        cache: false
+    });
+
+    function buildHtmlTable() {
+        $.getJSON('./data/log.json', function (dataString) {
+            var myList = dataString;
+            var columns = addAllColumnHeaders(myList);
+ 
+        for (var i = 0 ; i < myList.length ; i++) {
+            var row$ = $('<tr/>');
+            for (var colIndex = 0 ; colIndex < columns.length ; colIndex++) {
+                var cellValue = myList[i][columns[colIndex]];
+ 
+                if (cellValue == null) { cellValue = ""; }
+ 
+                row$.append($('<td/>').html(cellValue));
+            }
+            $("#excelDataTable").append(row$);
+        }
+        });
+    }
+ 
+    // Adds a header row to the table and returns the set of columns.
+    // Need to do union of keys from all records as some records may not contain
+    // all records
+    function addAllColumnHeaders(myList)
+    {
+        var columnSet = [];
+        var headerTr$ = $('<tr/>');
+ 
+        for (var i = 0 ; i < myList.length ; i++) {
+            var rowHash = myList[i];
+            for (var key in rowHash) {
+                if ($.inArray(key, columnSet) == -1){
+                    columnSet.push(key);
+                    headerTr$.append($('<th/>').html(key));
+                }
+            }
+        }
+        $("#excelDataTable").append(headerTr$);
+ 
+        return columnSet;
+    }
+</script>

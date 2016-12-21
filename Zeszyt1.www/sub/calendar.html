@@ -1,0 +1,518 @@
+﻿<div class="container">
+    <form class="form-inline" role="form" id="calendarForm">
+        <div class="form-group">
+            <label for="selYear">Wybierz rok:</label>
+            <select class="form-control" id="selYear"/>
+        </div>
+        <div class="form-group" id="predictionDiv">
+            <label for="selYear">Przewidywana data:</label>
+            <label id="predicitionDay" />
+        </div>
+    </form>
+
+    <table class="table table-bordered" id="data-table">
+        <thead>
+            <tr>
+                <th width="3%!important">--</th>
+                <th>STY</th>
+                <th>LUT</th>
+                <th>MAR</th>
+                <th>KWI</th>
+                <th>MAJ</th>
+                <th>CZE</th>
+                <th>LIP</th>
+                <th>SIE</th>
+                <th>WRZ</th>
+                <th>PAŹ</th>
+                <th>LIS</th>
+                <th>GRU</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>--</td>
+                <td>STY</td>
+                <td>LUT</td>
+                <td>MAR</td>
+                <td>KWI</td>
+                <td>MAJ</td>
+                <td>CZE</td>
+                <td>LIP</td>
+                <td>SIE</td>
+                <td>WRZ</td>
+                <td>PAŹ</td>
+                <td>LIS</td>
+                <td>GRU</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr id="rowDay1">
+                <td day="1-0">01</td>
+                <td day="1-1"></td> 
+                <td day="1-2"></td>
+                <td day="1-3"></td>
+                <td day="1-4"></td>
+                <td day="1-5"></td>
+                <td day="1-6"></td>
+                <td day="1-7"></td>
+                <td day="1-8"></td>
+                <td day="1-9"></td>
+                <td day="1-10"></td>
+                <td day="1-11"></td>
+                <td day="1-12"></td>                
+            </tr>
+            <tr id="rowDay2">
+                <td day="2-0">02</td>
+                <td day="2-1"></td>
+                <td day="2-2"></td>
+                <td day="2-3"></td>
+                <td day="2-4"></td>
+                <td day="2-5"></td>
+                <td day="2-6"></td>
+                <td day="2-7"></td>
+                <td day="2-8"></td>
+                <td day="2-9"></td>
+                <td day="2-10"></td>
+                <td day="2-11"></td>
+                <td day="2-12"></td>      
+            </tr>
+            <tr id="rowDay3">
+                <td day="3-0">03</td>
+                <td day="3-1"></td>
+                <td day="3-2"></td>
+                <td day="3-3"></td>
+                <td day="3-4"></td>
+                <td day="3-5"></td>
+                <td day="3-6"></td>
+                <td day="3-7"></td>
+                <td day="3-8"></td>
+                <td day="3-9"></td>
+                <td day="3-10"></td>
+                <td day="3-11"></td>
+                <td day="3-12"></td>
+            </tr>
+            <tr id="rowDay4">
+                <td day="4-0">04</td>
+                <td day="4-1"></td>
+                <td day="4-2"></td>
+                <td day="4-3"></td>
+                <td day="4-4"></td>
+                <td day="4-5"></td>
+                <td day="4-6"></td>
+                <td day="4-7"></td>
+                <td day="4-8"></td>
+                <td day="4-9"></td>
+                <td day="4-10"></td>
+                <td day="4-11"></td>
+                <td day="4-12"></td>
+            </tr>
+            <tr id="rowDay5">
+                <td day="5-0">05</td>
+                <td day="5-1"></td>
+                <td day="5-2"></td>
+                <td day="5-3"></td>
+                <td day="5-4"></td>
+                <td day="5-5"></td>
+                <td day="5-6"></td>
+                <td day="5-7"></td>
+                <td day="5-8"></td>
+                <td day="5-9"></td>
+                <td day="5-10"></td>
+                <td day="5-11"></td>
+                <td day="5-12"></td>
+            </tr>
+            <tr id="rowDay6">
+                <td day="6-0">06</td>
+                <td day="6-1"></td>
+                <td day="6-2"></td>
+                <td day="6-3"></td>
+                <td day="6-4"></td>
+                <td day="6-5"></td>
+                <td day="6-6"></td>
+                <td day="6-7"></td>
+                <td day="6-8"></td>
+                <td day="6-9"></td>
+                <td day="6-10"></td>
+                <td day="6-11"></td>
+                <td day="6-12"></td>
+            </tr>
+            <tr id="rowDay7">
+                <td day="7-0">07</td>
+                <td day="7-1"></td>
+                <td day="7-2"></td>
+                <td day="7-3"></td>
+                <td day="7-4"></td>
+                <td day="7-5"></td>
+                <td day="7-6"></td>
+                <td day="7-7"></td>
+                <td day="7-8"></td>
+                <td day="7-9"></td>
+                <td day="7-10"></td>
+                <td day="7-11"></td>
+                <td day="7-12"></td>
+            </tr>
+            <tr id="rowDay8">
+                <td day="8-0">08</td>
+                <td day="8-1"></td>
+                <td day="8-2"></td>
+                <td day="8-3"></td>
+                <td day="8-4"></td>
+                <td day="8-5"></td>
+                <td day="8-6"></td>
+                <td day="8-7"></td>
+                <td day="8-8"></td>
+                <td day="8-9"></td>
+                <td day="8-10"></td>
+                <td day="8-11"></td>
+                <td day="8-12"></td>
+            </tr>
+            <tr id="rowDay9">
+                <td day="9-0">09</td>
+                <td day="9-1"></td>
+                <td day="9-2"></td>
+                <td day="9-3"></td>
+                <td day="9-4"></td>
+                <td day="9-5"></td>
+                <td day="9-6"></td>
+                <td day="9-7"></td>
+                <td day="9-8"></td>
+                <td day="9-9"></td>
+                <td day="9-10"></td>
+                <td day="9-11"></td>
+                <td day="9-12"></td>
+            </tr>
+            <tr id="rowDay10">
+                <td day="10-0">10</td>
+                <td day="10-1"></td>
+                <td day="10-2"></td>
+                <td day="10-3"></td>
+                <td day="10-4"></td>
+                <td day="10-5"></td>
+                <td day="10-6"></td>
+                <td day="10-7"></td>
+                <td day="10-8"></td>
+                <td day="10-9"></td>
+                <td day="10-10"></td>
+                <td day="10-11"></td>
+                <td day="10-12"></td>
+            </tr>
+            <tr id="rowDay11">
+                <td day="11-0">11</td>
+                <td day="11-1"></td>
+                <td day="11-2"></td>
+                <td day="11-3"></td>
+                <td day="11-4"></td>
+                <td day="11-5"></td>
+                <td day="11-6"></td>
+                <td day="11-7"></td>
+                <td day="11-8"></td>
+                <td day="11-9"></td>
+                <td day="11-10"></td>
+                <td day="11-11"></td>
+                <td day="11-12"></td>
+            </tr>
+            <tr id="rowDay12">
+                <td day="12-0">12</td>
+                <td day="12-1"></td>
+                <td day="12-2"></td>
+                <td day="12-3"></td>
+                <td day="12-4"></td>
+                <td day="12-5"></td>
+                <td day="12-6"></td>
+                <td day="12-7"></td>
+                <td day="12-8"></td>
+                <td day="12-9"></td>
+                <td day="12-10"></td>
+                <td day="12-11"></td>
+                <td day="12-12"></td>
+            </tr>
+            <tr id="rowDay13">
+                <td day="13-0">13</td>
+                <td day="13-1"></td>
+                <td day="13-2"></td>
+                <td day="13-3"></td>
+                <td day="13-4"></td>
+                <td day="13-5"></td>
+                <td day="13-6"></td>
+                <td day="13-7"></td>
+                <td day="13-8"></td>
+                <td day="13-9"></td>
+                <td day="13-10"></td>
+                <td day="13-11"></td>
+                <td day="13-12"></td>
+            </tr>
+            <tr id="rowDay14">
+                <td day="14-0">14</td>
+                <td day="14-1"></td>
+                <td day="14-2"></td>
+                <td day="14-3"></td>
+                <td day="14-4"></td>
+                <td day="14-5"></td>
+                <td day="14-6"></td>
+                <td day="14-7"></td>
+                <td day="14-8"></td>
+                <td day="14-9"></td>
+                <td day="14-10"></td>
+                <td day="14-11"></td>
+                <td day="14-12"></td>
+            </tr>
+            <tr id="rowDay15">
+                <td day="15-0">15</td>
+                <td day="15-1"></td>
+                <td day="15-2"></td>
+                <td day="15-3"></td>
+                <td day="15-4"></td>
+                <td day="15-5"></td>
+                <td day="15-6"></td>
+                <td day="15-7"></td>
+                <td day="15-8"></td>
+                <td day="15-9"></td>
+                <td day="15-10"></td>
+                <td day="15-11"></td>
+                <td day="15-12"></td>
+            </tr>
+            <tr id="rowDay16">
+                <td day="16-0">16</td>
+                <td day="16-01"></td>
+                <td day="16-2"></td>
+                <td day="16-3"></td>
+                <td day="16-4"></td>
+                <td day="16-5"></td>
+                <td day="16-6"></td>
+                <td day="16-7"></td>
+                <td day="16-8"></td>
+                <td day="16-9"></td>
+                <td day="16-10"></td>
+                <td day="16-11"></td>
+                <td day="16-12"></td>
+            </tr>
+            <tr id="rowDay17">
+                <td day="17-0">17</td>
+                <td day="17-1"></td>
+                <td day="17-2"></td>
+                <td day="17-3"></td>
+                <td day="17-4"></td>
+                <td day="17-5"></td>
+                <td day="17-6"></td>
+                <td day="17-7"></td>
+                <td day="17-8"></td>
+                <td day="17-9"></td>
+                <td day="17-10"></td>
+                <td day="17-11"></td>
+                <td day="17-12"></td>
+            </tr>
+            <tr id="rowDay18">
+                <td day="18-0">18</td>
+                <td day="18-1"></td>
+                <td day="18-2"></td>
+                <td day="18-3"></td>
+                <td day="18-4"></td>
+                <td day="18-5"></td>
+                <td day="18-6"></td>
+                <td day="18-7"></td>
+                <td day="18-8"></td>
+                <td day="18-9"></td>
+                <td day="18-10"></td>
+                <td day="18-11"></td>
+                <td day="18-12"></td>
+            </tr>
+            <tr id="rowDay19">
+                <td day="19-0">19</td>
+                <td day="19-1"></td>
+                <td day="19-2"></td>
+                <td day="19-3"></td>
+                <td day="19-4"></td>
+                <td day="19-5"></td>
+                <td day="19-6"></td>
+                <td day="19-7"></td>
+                <td day="19-8"></td>
+                <td day="19-9"></td>
+                <td day="19-10"></td>
+                <td day="19-11"></td>
+                <td day="19-12"></td>
+            </tr>
+            <tr id="rowDay20">
+                <td day="20-0">20</td>
+                <td day="20-1"></td>
+                <td day="20-2"></td>
+                <td day="20-3"></td>
+                <td day="20-4"></td>
+                <td day="20-5"></td>
+                <td day="20-6"></td>
+                <td day="20-7"></td>
+                <td day="20-8"></td>
+                <td day="20-9"></td>
+                <td day="20-10"></td>
+                <td day="20-11"></td>
+                <td day="20-12"></td>
+            </tr>
+            <tr id="rowDay21">
+                <td day="21-0">21</td>
+                <td day="21-1"></td>
+                <td day="21-2"></td>
+                <td day="21-3"></td>
+                <td day="21-4"></td>
+                <td day="21-5"></td>
+                <td day="21-6"></td>
+                <td day="21-7"></td>
+                <td day="21-8"></td>
+                <td day="21-9"></td>
+                <td day="21-10"></td>
+                <td day="21-11"></td>
+                <td day="21-12"></td>
+            </tr>
+            <tr id="rowDay22">
+                <td day="22-0">22</td>
+                <td day="22-1"></td>
+                <td day="22-2"></td>
+                <td day="22-3"></td>
+                <td day="22-4"></td>
+                <td day="22-5"></td>
+                <td day="22-6"></td>
+                <td day="22-7"></td>
+                <td day="22-8"></td>
+                <td day="22-9"></td>
+                <td day="22-10"></td>
+                <td day="22-11"></td>
+                <td day="22-12"></td>
+            </tr>
+            <tr id="rowDay23">
+                <td day="23-0">23</td>
+                <td day="23-1"></td>
+                <td day="23-2"></td>
+                <td day="23-3"></td>
+                <td day="23-4"></td>
+                <td day="23-5"></td>
+                <td day="23-6"></td>
+                <td day="23-7"></td>
+                <td day="23-8"></td>
+                <td day="23-9"></td>
+                <td day="23-10"></td>
+                <td day="23-11"></td>
+                <td day="23-12"></td>
+            </tr>
+            <tr id="rowDay24">
+                <td day="24-0">24</td>
+                <td day="24-1"></td>
+                <td day="24-2"></td>
+                <td day="24-3"></td>
+                <td day="24-4"></td>
+                <td day="24-5"></td>
+                <td day="24-6"></td>
+                <td day="24-7"></td>
+                <td day="24-8"></td>
+                <td day="24-9"></td>
+                <td day="24-10"></td>
+                <td day="24-11"></td>
+                <td day="24-12"></td>
+            </tr>
+            <tr id="rowDay25">
+                <td day="25-0">25</td>
+                <td day="25-1"></td>
+                <td day="25-2"></td>
+                <td day="25-3"></td>
+                <td day="25-4"></td>
+                <td day="25-5"></td>
+                <td day="25-6"></td>
+                <td day="25-7"></td>
+                <td day="25-8"></td>
+                <td day="25-9"></td>
+                <td day="25-10"></td>
+                <td day="25-11"></td>
+                <td day="25-12"></td>
+            </tr>
+            <tr id="rowDay26">
+                <td day="26-0">26</td>
+                <td day="26-1"></td>
+                <td day="26-2"></td>
+                <td day="26-3"></td>
+                <td day="26-4"></td>
+                <td day="26-5"></td>
+                <td day="26-6"></td>
+                <td day="26-7"></td>
+                <td day="26-8"></td>
+                <td day="26-9"></td>
+                <td day="26-10"></td>
+                <td day="26-11"></td>
+                <td day="26-12"></td>
+            </tr>
+            <tr id="rowDay27">
+                <td day="27-0">27</td>
+                <td day="27-1"></td>
+                <td day="27-2"></td>
+                <td day="27-3"></td>
+                <td day="27-4"></td>
+                <td day="27-5"></td>
+                <td day="27-6"></td>
+                <td day="27-7"></td>
+                <td day="27-8"></td>
+                <td day="27-9"></td>
+                <td day="27-10"></td>
+                <td day="27-11"></td>
+                <td day="27-12"></td>
+            </tr>
+            <tr id="rowDay28">
+                <td day="28-0">28</td>
+                <td day="28-1"></td>
+                <td day="28-2"></td>
+                <td day="28-3"></td>
+                <td day="28-4"></td>
+                <td day="28-5"></td>
+                <td day="28-6"></td>
+                <td day="28-7"></td>
+                <td day="28-8"></td>
+                <td day="28-9"></td>
+                <td day="28-10"></td>
+                <td day="28-11"></td>
+                <td day="28-12"></td>
+            </tr>
+            <tr id="rowDay29">
+                <td day="29-0">29</td>
+                <td day="29-1"></td>
+                <td day="29-2"></td>
+                <td day="29-3"></td>
+                <td day="29-4"></td>
+                <td day="29-5"></td>
+                <td day="29-6"></td>
+                <td day="29-7"></td>
+                <td day="29-8"></td>
+                <td day="29-9"></td>
+                <td day="29-10"></td>
+                <td day="29-11"></td>
+                <td day="29-12"></td>
+            </tr>
+            <tr id="rowDay30">
+                <td day="30-0">30</td>
+                <td day="30-1"></td>
+                <td day="30-2"></td>
+                <td day="30-3"></td>
+                <td day="30-4"></td>
+                <td day="30-5"></td>
+                <td day="30-6"></td>
+                <td day="30-7"></td>
+                <td day="30-8"></td>
+                <td day="30-9"></td>
+                <td day="30-10"></td>
+                <td day="30-11"></td>
+                <td day="30-12"></td>
+            </tr>
+            <tr id="rowDay31">
+                <td day="31-0">31</td>
+                <td day="31-1"></td>
+                <td day="31-2"></td>
+                <td day="31-3"></td>
+                <td day="31-4"></td>
+                <td day="31-5"></td>
+                <td day="31-6"></td>
+                <td day="31-7"></td>
+                <td day="31-8"></td>
+                <td day="31-9"></td>
+                <td day="31-10"></td>
+                <td day="31-11"></td>
+                <td day="31-12"></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</div>
