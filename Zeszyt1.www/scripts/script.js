@@ -294,7 +294,7 @@ function LoadStats() {
                 .duration(250)
                 .color(['#aec7e8']);
             ;
-            chart.yDomain([0,14]);
+            chart.yDomain([0,30]);
             d3.select('#chart1 svg')
                 .datum(dataArr)
                 .call(chart);
