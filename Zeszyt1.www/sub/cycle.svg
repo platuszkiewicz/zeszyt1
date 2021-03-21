@@ -103,6 +103,12 @@
        d="M 822.93164 1497.8984 L 781.02539 1681.8711 A 755.90551 755.90551 0 0 0 944.31641 1700.7832 L 943.99023 1511.7832 A 566.92913 566.92913 0 0 1 822.93164 1497.8984 z "
        transform="scale(0.26458333)"
        id="path4518-64-1" />
+    <path
+       style="display:inline;opacity:0.81400003;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.1354332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 945.27539,188.99023 0.14844,188.99024 A 566.92912,566.92912 0 0 1 1462.334,714.99023 l 170.4336,-81.75585 A 755.9055,755.9055 0 0 0 945.27539,188.99023 Z"
+       id="path4518-6"
+       inkscape:connector-curvature="0"
+       transform="scale(0.26458333)" />
     <circle
        style="opacity:0.81400003;vector-effect:none;fill:#c22aea;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="path4510"
@@ -120,12 +126,6 @@
          x="295.86734"
          y="420.88818"
          style="font-size:25.39999962px;stroke-width:0.26458332">88</tspan></text>
-    <path
-       style="display:inline;opacity:0.81400003;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.1354332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 945.27539,188.99023 0.14844,188.99024 A 566.92912,566.92912 0 0 1 1462.334,714.99023 l 170.4336,-81.75585 A 755.9055,755.9055 0 0 0 945.27539,188.99023 Z"
-       id="path4518-6"
-       inkscape:connector-curvature="0"
-       transform="scale(0.26458333)" />
   </g>
   <g
      inkscape:groupmode="layer"
